@@ -743,6 +743,6 @@ function socketsInit(token, domain) {
 window.addEventListener("load", () => {
   socketsInit(
     "PnbnvdklNObUYQwaoPnmBIRMNvKamJInMrIwWruqUnEimXrQcjumtOjPlHVelZcG",
-    "https://alpha.alm6ar.com/api/v1/almatar-bot"
+    "https://mistakenly-delicate-tiger.ngrok-free.app"
   );
 });
