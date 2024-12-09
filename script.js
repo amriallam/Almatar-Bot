@@ -743,6 +743,6 @@ function socketsInit(token, domain) {
 window.addEventListener("load", () => {
   socketsInit(
     "PnbnvdklNObUYQwaoPnmBIRMNvKamJInMrIwWruqUnEimXrQcjumtOjPlHVelZcG",
-    "localhost:5555"
+    "https://alpha.alm6ar.com/api/v1/almatar-bot"
   );
 });
