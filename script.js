@@ -278,6 +278,7 @@ function removeThinkingMessages() {
 function handleSocketReply(params) {
   handleNotificationBadge();
   let messageHtml = "";
+  const text = params.text?.body || params.text;
   switch (params.type) {
     case "text":
       messageHtml = createTextMessage(text);
@@ -743,6 +744,6 @@ function socketsInit(token, domain) {
 window.addEventListener("load", () => {
   socketsInit(
     "PnbnvdklNObUYQwaoPnmBIRMNvKamJInMrIwWruqUnEimXrQcjumtOjPlHVelZcG",
-    "https://mistakenly-delicate-tiger.ngrok-free.app"
+    "localhost:5555"
   );
 });
