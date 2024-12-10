@@ -744,6 +744,6 @@ function socketsInit(token, domain) {
 window.addEventListener("load", () => {
   socketsInit(
     "PnbnvdklNObUYQwaoPnmBIRMNvKamJInMrIwWruqUnEimXrQcjumtOjPlHVelZcG",
-    "localhost:5555"
+    "https://mistakenly-delicate-tiger.ngrok-free.app"
   );
 });
